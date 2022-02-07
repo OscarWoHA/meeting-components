@@ -1,0 +1,13 @@
+@import "bootstrap/scss/_functions.scss";
+@import "bootstrap/scss/_variables.scss";
+
+$datepicker__font-family: $font-family-base;
+$datepicker__border-color: $input-border-color;
+$datepicker__background-color: transparent;
+$datepicker__selected-color: $primary;
+
+@import "react-datepicker/src/stylesheets/datepicker.scss";
+
+.react-datepicker__navigation {
+    top: 1rem;
+}
